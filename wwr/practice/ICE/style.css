@@ -1,0 +1,23 @@
+div{
+    border: solid white;
+    background-color: red;
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    list-style-type: decimal;
+
+
+}
+h4{font-family: Verdana;}
+h3{font-family: Verdana;}
+h2{color: white;
+    font-family: Arial;
+    size: 50px
+;}
+h1{color: white;
+    margin: auto;
+    font-family: Arial;
+}
+body{background-color: blue;}
+img{ width: 200px;}

@@ -1,0 +1,45 @@
+
+   
+   
+
+        h1 {font-size: 50px;}
+        h2 {font-size: 1mm;}
+        h3 {font-size: 1in;}
+        #partwo h1{
+            font-size: 2em;
+        }
+        #outerbox {
+            background: green ;
+            width: 14em;
+            height: 14em;
+        }
+        #innerbox{
+            margin:0 auto;
+            background: plum;
+            width: 1in;
+            height: 1in;
+        }
+        .pirate{border: solid black;}
+        .cupcake{border:dotted palevioletred 1cm}
+        nav{background: olivedrab;
+        width: 75%;
+    margin: 0 auto;}
+    nav li{
+        display: inline-block;
+        margin: 0 8% 0 0;
+
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+
+    nav a:hover{ 
+        background: lightgray;
+    }
+     
+    a:visited{
+        color: peachpuff;
+    }
+
