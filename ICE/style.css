@@ -1,0 +1,18 @@
+div{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(72, 71, 71);
+}
+#lart{
+    width: 100%;
+    height: 600px;
+}
+.sec{
+    width: 200px;
+    border: 10px solid rgb(36, 36, 36);
+    border-radius: 50%;
+    margin: 80px 80px;
+}
+#pik{
+    display: inline-block;
+}

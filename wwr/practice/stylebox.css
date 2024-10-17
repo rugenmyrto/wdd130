@@ -1,0 +1,39 @@
+body{background-color: gray;}
+
+#wrapper{
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.qbox1, .qbox2, .qbox3{
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.qbox1{
+    margin: 20px;
+    border: 25px solid black;
+    padding: 10px 30px ;
+    width: 500px;
+    background-color: white;
+    
+}
+
+.qbox2 {
+    margin: 20px;
+    border: 40px dotted dodgerblue;
+    padding: 30px 50px;
+    background-color: lavender ;
+    width: 500px;
+}
+
+.qbox3{
+    margin: 20px;
+    width: 500px;
+    border: 30px double darkred;
+    background-color: orange;
+    padding: 30px 80px;
+}
