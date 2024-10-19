@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: #57a773;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Oswald";
+  --heading-font: Arial;
   --paragraph-font:"Raleway" ;
 
   /* these colors below should be chosen from among your palette colors above */
