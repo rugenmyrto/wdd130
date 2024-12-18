@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: #396E94;
+    
+    display: grid;
+    grid-template-columns: 150px 1fr 150px 150px 150px;
+    grid-template-rows: 100px;
+    align-content: center;
+    
+
+}
+#homeicon{
+    width: 80px;
+    
+    grid-column: 3;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: auto;
+
+    
+}
+#abouticon{
+    width: 80px;
+    grid-column: 4;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+#contacticon{
+    width: 80px;
+    grid-column: 5;
+    margin-top: 15px;
+    margin: 0 auto ;
+    
+    
+}
+#logo{ 
+    width: 100%;
+    height: 100%;
+    grid-row: 1;
+}
+#herofoto{
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 2;
+}
+#audit{
+    display: grid;
+    grid-template-columns: 2fr 80% 2fr;
+}
+#hero{
+    width: 80%;
+    background-color: slategray ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 36% 64%;
+    margin: 0 auto;
+}
+#purpose{
+    grid-column: 1;
+    grid-row: 1;
+}
+#purp{
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+}
+#audience{
+    grid-column: 2;
+    grid-row: 2;
+}
+#aud{
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+
+}
+
