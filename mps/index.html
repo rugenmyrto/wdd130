@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            background-image: url(image/pexels9.jpg);
+            background-size:100% ;
+        }
+        #lart{
+            background-image: url(image/zyra01.jpg);
+            background-size:100% ;
+
+        }
+        .container {
+  position: relative;
+  width: 100%;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #20334b;
+  border-radius: 3%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+    padding: 10px;
+  color: #dbbc6d;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>New Era Auditing</title>
     <link rel="icon" href="image/zyralogo.png" type="image/icon type">
     <link rel="stylesheet" href="styles/stil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,22 +67,31 @@
 <body>
     <header>
         
-        <nav>
-            <a href="index.html" id="logolink">
-                <img src="image/zyralogo.png" alt="logo" id="logo">
-            </a>
-            <a href="index.html" ><img src="image/home.png" alt="homeicon" id="homeicon"></a>
-            <a href="aboutus.html"> <img src="image/about-us.png" alt="abouticon" id="abouticon"></a>
-            <a href="contactus.html"> <img src="image/contact-us.png" alt="contacticon" id="contacticon"></a>
+        <div id="nav">
+            <a href="index.html" id="lognav"><img src="image/zyralogo.png" alt="home" id="logic"></a>
+            <p id="emer">New Era Auditing</p>
+            <a href="index.html" id="home"><img src="image/home.png" alt="home" id="homeic"></a>
+           <a href="aboutus.html" id="abt"><img src="image/about-us.png" alt="about" id="abtic"></a>
+           <a href="contactus.html" id="cont"><img src="image/contact-us.png" alt="about" id="contic"></a>
+           
 
-        </nav>
+        </div>
         
             
     </header>
     
         
             <div id="audit">
-                <img id="herofoto" src="image/zyra01.jpg" alt="hero">
+                <div id="lart">
+                    <div class="container">
+                        <img src="image/zyralogo.png" alt="Avatar" class="image">
+                        <div class="overlay">
+                          <div class="text">By Rudina Zinxhiria<br>
+                        xxxxxxxxxxx@yahoo.it<br></div>
+                        </div>
+                      </div>
+                </div>
+                
                 
             
             
@@ -61,6 +125,7 @@
                 
                     </p>
             </div>
+            
                 </div>
                 </div>
                 
@@ -71,20 +136,13 @@
     </div>
         
         <footer>
-            <p>New Era Auditing &copy; 20XX - Rugen Myrto</p>
+            <div id="nav2">
+            <p id="brock">New Era Auditing &copy 20XX - Rugen Myrto</p>
         
-        <p><a href="contactus.html">Contact Us</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
+        <p id="closing"><a href="contactus.html">Contact Us</a>
+        <a href="maps#">Address</a></p>
+        
+    </div>
         
             
 
